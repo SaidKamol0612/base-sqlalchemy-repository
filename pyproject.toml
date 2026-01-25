@@ -1,0 +1,18 @@
+[project]
+name = "base-sqlalchemy-repository"
+version = "0.1.0"
+description = "Async generic base repository for managing SQLAlchemy models."
+authors = [
+    {name = "Saidkamol Mirsaidov",email = "kamolsaid2006@gmail.com"}
+]
+license = {text = "MIT License"}
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "sqlalchemy (>=2.0.46,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
