@@ -1,4 +1,4 @@
-# Async SQLAlchemy Repository
+# Base SQLAlchemy Repository
 
 Lightweight, typed, and extensible **async repository pattern** for SQLAlchemy 2.x.
 
@@ -27,7 +27,7 @@ Perfect fit for **FastAPI**, **SQLAlchemy async**, and clean architecture projec
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/SaidKamol0612/base-sqlalchemy-repository.git
+pip install base-sqlalchemy-repository
 ```
 
 ---
